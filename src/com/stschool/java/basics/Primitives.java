@@ -43,7 +43,27 @@ public class Primitives {
         System.out.println("Registration Fee : "+ registrationFee);
         System.out.println("Booking Amount : " + bookingAmount);
 
+        long totalAmount, ownerPhoneNumber, agentPhoneNumber, userPhoneNumber;
+        totalAmount = 2323232323L;
+        ownerPhoneNumber = 99899898989L;
+        agentPhoneNumber = 28382323232L;
+        userPhoneNumber = 23324343433L;
+        System.out.println("Total Amount of the Property : " + totalAmount);
+        System.out.println("Property Owner Number : " + ownerPhoneNumber);
+        System.out.println("Property Agent Number : " + agentPhoneNumber);
+        System.out.println("Request Phone Number of the user :" + userPhoneNumber);
 
+
+
+        float propertyInSqYards, distanceToCity,distanceToAirport, distanceToHighway;
+        propertyInSqYards=122.5F;
+        distanceToAirport=35.2F;
+        distanceToCity=12.3F;
+        distanceToHighway=10.3F;
+        System.out.println("Property size in Yards : "+ propertyInSqYards);
+        System.out.println("Distance from Airport to Project :" + distanceToAirport);
+        System.out.println("Distance from City to Project : "+ distanceToCity);
+        System.out.println("Distance from National Highway : " + distanceToHighway);
 
 
 
