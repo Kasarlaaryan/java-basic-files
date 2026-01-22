@@ -84,6 +84,15 @@ public class Primitives {
         System.out.println(approvalStatus);
         System.out.println( userType);
 
+        boolean isAvailable, isSold, isUnderConstruction, isReadyToMove;
+        isAvailable = true;
+        isSold= false;
+        isUnderConstruction=true;
+        isReadyToMove=true;
+        System.out.println(isAvailable);
+        System.out.println(isSold);
+        System.out.println(isUnderConstruction);
+        System.out.println(isReadyToMove);
         sc.close();
     }
 }
