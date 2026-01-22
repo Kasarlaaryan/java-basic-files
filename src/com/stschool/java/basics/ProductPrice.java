@@ -35,7 +35,7 @@ public class ProductPrice {
         System.out.println("Total Number of the Quantity is : " + quantity);
         System.out.println("Finial Price of the Product for " + quantity + " is : " +  finialBill );
         System.out.println("Total Savage on this product for " + quantity + " is " + totalsavage );
-        System.out.println("=========================================================================");
+        System.out.println("=====================================================================");
 
 
 
