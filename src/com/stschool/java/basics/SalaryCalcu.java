@@ -8,7 +8,7 @@ public class SalaryCalcu {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int ctc, monthlyAmount, basic, proffesionalTax, insuranceAmount, employeePF, employerPF;
+        int ctc, monthlyAmount, basic, professionalTax, insuranceAmount, employeePF, employerPF;
         byte percentage, daPercentage, hraPercentage, employeePFPercentage, employerPFPercentage, year;
         double da, hra, grossSalary, deductions, netPayAmount, yearlyNetPay, yearlyDeducations;
         System.out.println("Please Enter the CTC of the Person");
@@ -26,11 +26,11 @@ public class SalaryCalcu {
         employeePFPercentage = 12;
         employeePF = (basic * employeePFPercentage)/100;
         employerPF = (basic * employerPFPercentage)/100;
-        proffesionalTax = 200;
+        professionalTax = 200;
         insuranceAmount = 1000;
         year = 12;
 
-        deductions = employeePF + employerPF + proffesionalTax + insuranceAmount;
+        deductions = employeePF + employerPF + professionalTax + insuranceAmount;
         netPayAmount = grossSalary - deductions;
         yearlyDeducations = deductions * year;
         yearlyNetPay = netPayAmount * year;
@@ -45,7 +45,7 @@ public class SalaryCalcu {
         System.out.println("Deductions");
         System.out.println("Employee PF : " + employeePF);
         System.out.println("Employer PF : " + employerPF);
-        System.out.println("Professional Tax : " + proffesionalTax);
+        System.out.println("Professional Tax : " + professionalTax);
         System.out.println("Insurance Amount  : " + insuranceAmount);
         System.out.println("Total Deductions : " + deductions);
         System.out.println("-------------------------------------------------");
